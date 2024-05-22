@@ -18,6 +18,9 @@ class _HomePage2State extends State<HomePage2> {
 
   Widget build(BuildContext context) {
     return Scaffold(
+      bottomNavigationBar: BottomAppBar(
+        color: const Color(0xFF36304F),
+      ),
       body: SingleChildScrollView(
               child: Column(
                 children: [
